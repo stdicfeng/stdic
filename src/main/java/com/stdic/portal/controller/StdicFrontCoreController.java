@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * 
- * @author Carlis.Wang
+ * @author Carlis.zhanghaibo
  * @since 2.0
  */
 @RequestMapping("/")
@@ -20,7 +20,8 @@ public class StdicFrontCoreController {
 
     private static final Logger log = LoggerFactory.getLogger(StdicFrontCoreController.class);
 
-    private int i;
+    private int i=0;
+    
     @RequestMapping("/index")
     public void index(HttpServletRequest req, HttpServletResponse resp) {
         
