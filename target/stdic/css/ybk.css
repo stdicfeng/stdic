@@ -1,0 +1,51 @@
+/*!
+ * Start Bootstrap - Shop Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/**
+ * override bootstrap
+ */
+
+nav.navbar-inverse {
+    background-color: none;
+}
+
+/**
+ * custom
+ */
+
+.relative {
+	position: relative; 
+}
+ 
+.banner {
+	width: 100%;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.logon {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+

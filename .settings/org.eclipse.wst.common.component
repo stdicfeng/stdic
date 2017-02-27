@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="stdic">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF" source-path="/target/ybk/WEB-INF"/>
+        <property name="java-output-path" value="/stdic/target/classes"/>
+        <property name="context-root" value="stdic"/>
+    </wb-module>
+</project-modules>
